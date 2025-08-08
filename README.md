@@ -41,4 +41,4 @@ This project is a **fully responsive landing page** for a fictional headphone br
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Jooleric/headphones-landing-page.git
+More details here
