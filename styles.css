@@ -1,0 +1,296 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(255, 255, 255);
+  color: #333;
+}
+
+.navbar {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  right: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+  color: white;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('images/Object.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9));
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.tagline {
+  margin: 20px 0;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.cta-button {
+  background: #c271ff;
+  color: white;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.subtext {
+  margin-top: 30px;
+  color: #ccc;
+  font-size: 18px;
+}
+
+.highlight {
+  color: #c271ff;
+  font-weight: bold;
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 70%;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+.profile h3 {
+  margin: 10px 0 5px;
+}
+
+.profile p {
+  font-size: 14px;
+  color: #bbb;
+}
+
+/*testimonials*/
+.testimonial {
+  background: #c271ff;
+  color: white;
+  padding: 60px 100px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.testimonial img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.testimonial blockquote {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.testimonial h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*tutorials*/
+.tutorials {
+  padding: 80px 100px;
+  text-align: center;
+}
+
+.tutorials h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  width: 22%;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 15px;
+  text-align: left;
+}
+
+.card-info h3 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.author {
+    color: #c271ff;
+}
+
+.author img {
+    width: 60px;
+    height: auto;
+}
+
+.card-info .author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.card-info .meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #c271ff;
+}
+
+/*membership*/
+.membership {
+  background: #071629;
+  color: white;
+  text-align: center;
+  padding: 80px 100px;
+}
+
+.membership h2{
+  font-size: 120%;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0;
+}
+
+.benefit {
+  width: 20%;
+  line-height: 1.8;
+}
+
+.benefit h3 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.benefit img {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* FAQ */
+.faq {
+  padding: 80px 100px;
+  text-align: center;
+}
+
+.faq h2 {
+    font-size: 40px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.faq-item p {
+  text-align: left;
+  line-height: 1.5;
+  color:#71667a;
+}
+
+/* Footer */
+footer {
+  background: #071629;
+  color: white;
+  padding: 50px 100px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.socials {
+  font-size: 20px;
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
